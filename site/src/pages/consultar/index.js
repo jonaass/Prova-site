@@ -25,6 +25,9 @@ export default function Index() {
                      <thead>
                          <tr>
                              <th>
+                                 Id
+                             </th>
+                             <th>
                                  Nome
                              </th>
                          </tr>
@@ -32,6 +35,7 @@ export default function Index() {
                      <tbody>
                          {animes.map(item =>
                             <tr>
+                                <td>{item.id}</td>
                                 <td>{item.nome}</td>
                             </tr>
                             )}
