@@ -1,3 +1,15 @@
+import { useState } from "react";
+import { ConsultarAnime } from "../../api/anime";
 
-import { useEffect,useState } from "react";
-import { useNavigate } from "react-router-dom";
+
+export default function Index() {
+    const [animes,SetAnimes] =useState([]);
+    
+    
+
+
+
+    
+}
+
+
